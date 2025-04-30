@@ -1,0 +1,5 @@
+/
+if(condition);
+	print("true")
+else: 
+	print("furse")

@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
-LED = 11
+LED = 11, 13, 15
 GPIO.setup(LED, GPIO.OUT, initial=GPIO.LOW)
 try:
 	while 1:
